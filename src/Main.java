@@ -33,5 +33,11 @@ public class Main {
         System.out.println(" 4 + 5 = "+sum);
         System.out.println(" -123 + 4 = "+c.sum(-123, 4));
         System.out.println(" 5+1+5+1+5 = "+c.sum5Arguments(5,1,5,1,5));
+        System.out.println("-----------------");
+        // zadanie 4
+        int [] values = {21, 34, 51, 123,43, 64, 87, 55};
+        sum = c.sumArray(values);
+        System.out.println("Wynik doadania elemntów tablicy = "+sum);
+        System.out.println("średnia tablicy = "+c.avg(values));
     }
 }
