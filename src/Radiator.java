@@ -18,4 +18,7 @@ public class Radiator {
         System.out.println("Weight: "+weight);
         System.out.println("Power: "+power+"W");
     }
+    double powerInKwh(){
+        return (double) power/1000;
+    }
 }
